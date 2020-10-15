@@ -16,12 +16,16 @@
 			function webb(){
    				document.getElementById('body').innerHTML = main;
 			}*/
+			let main = '<div onclick="ala()"><h1 id="h1">Hallo</h1></div>';
+			let bye = '<div onclick="bla()"><h1 id="h1">Tschüss</h1></div>';
 			
-			function a(){
-				document.body.style.backgroundColor = "red";
-			}
-			function b(){
+			function ala(){
 				document.body.style.backgroundColor = "blue";
+				document.getElementById('body').innerHTML = bye;
+			}
+			function bla(){
+				document.body.style.backgroundColor = "red";
+				document.getElementById('body').innerHTML = main;
 			}
 			
 		</script>
@@ -29,7 +33,7 @@
 	</head>
 
 	<body id="body">
-	<div onclick="a()">
+	<div onclick="ala()">
         	<h1 id="h1">Hallo</h1>
 	</div>
    </body>
