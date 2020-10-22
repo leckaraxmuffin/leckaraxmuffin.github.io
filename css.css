@@ -73,8 +73,8 @@ h4{
 	border: 0.5vw black solid;
 	border-radius: 10vw;
 }
-.welt{
-	width: 70%;
+#welt img{
+	height: 50vw;
 }
 .rot{
 	width: 1vw;
