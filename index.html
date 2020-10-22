@@ -3,40 +3,31 @@
 	<head>
 		<meta lang="de">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css">
-		<script defer>
-			/*
-			let main = '<div onclick="web()"><h1 id="h1">Hallo</h1></div>';
-			let bye = '<div onclick="webb()"><h1 id="h1">Tschüss</h1></div>';
-
-			function web(){
-    				document.getElementById('body').innerHTML = bye;
-			}
-
-			function webb(){
-   				document.getElementById('body').innerHTML = main;
-			}*/
-			let main = '<div onclick="ala()"><h1 id="h1">Hallo</h1></div>';
-			let bye = '<div onclick="bla()"><h1 id="h1">Tschüss</h1></div>';
-			
-			function ala(){
-				document.body.style.backgroundColor = "black";
-				document.getElementById('h1').style.color = "white";
-				document.getElementById('body').innerHTML = bye;
-			}
-			function bla(){
-				document.body.style.backgroundColor = "gray";
-				document.getElementById('h1').style.color = "white";
-				document.getElementById('body').innerHTML = main;
-			}
-			
-		</script>
-		<title>Titel</title>
+		<link rel="stylesheet" href="css.css">
+		<title>Reisen</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital@1&display=swap');
+		</style>
 	</head>
 
 	<body id="body">
-	<div onclick="ala()">
-        	<h1 id="h1">Hallo</h1>
-	</div>
+		<div id="oben">
+			<div id="nav">
+				<div onclick="myHome()"><img src="Medien/zuhause.png" alt="Haus Icon"></div>
+				<div onclick="myTv()"><img src="Medien/fernsehen.png" alt="TV Icon"></div>
+				<div onclick="myText()"><img src="Medien/vertrag.png" alt="Haus Icon"></div>
+				<div onclick="myPictures()"><img src="Medien/kamera.png" alt="Haus Icon"></div>
+				<div onclick="mySound()"><img src="Medien/heimkino.png" alt="Haus Icon"></div>
+			</div>
+		</div>
+		
+		<div id="inhalt">
+			<h1>Wohin möchten Sie reisen?</h1>
+			<!--<img id="welt" src="Medien/welt.png" alt="Weltkarte">-->
+			<div onclick="myTv()"><div id="rot"></div></div>
+			<div onclick="myText()"><div id="blau"></div></div>
+			<div onclick="mySound()"><div id="grun"></div></div>
+			<div onclick="myPictures()"><div id="gelb"></div></div>
+		</div>
    </body>
 </html>

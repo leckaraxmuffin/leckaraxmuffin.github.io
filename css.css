@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Grandstander', cursive;
+	letter-spacing: 0.27vw;
+}
+body{
+	background-color:#2B3E51;
+}
+p{
+	font-size: 1.5vw;
+}
+#oben{
+	height: 30vw;
+	width: auto;
+	/* background: url("Medien/Wolken.jpg") no-repeat center center fixed; */
+	background-size: cover;
+	z-index: 0;
+}
+#oben img{
+	height: 5vw;
+}
+#zurueck img{
+	margin: 1vw
+}
+#player{
+	display: block;
+	/*background: url(aegypten.jpg);*/
+	opacity: 0,5;
+	border: 1vw black solid;
+	width: 50%;
+	margin: 1vw auto;
+	padding: 1vw;
+	padding-top: 15vw;
+}
+#player audio{
+	color: black;
+}
+#alaska{
+	background-color: black;
+	width: 50vw;
+}
+#video{
+	height: 30vw;
+	border: 2vw black solid;
+	border-radius: 1vw;
+}
+#nav{
+	height: 8vw;
+	width: auto;
+	padding-top: 5vw;
+	background-color: rgb(73, 73, 73);
+	border-radius: 0vw 0vw 2.5vw 2.5vw;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#nav div{
+	color: white;
+	padding: 0vw 5vw;
+	padding-left: 9vw;
+}
+#nav img{
+	text-align: center;
+}
+
+#inhalt{
+	background-color: rgb(48, 48, 48);
+	color: white;
+	width: 80%;
+	margin: 0px auto;
+	padding: 2%;
+	margin-bottom: 7vw;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	top: 15vw;
+	border-radius: 2.5vw;
+	left: 8.5%;
+}
+#kokos{
+	margin: 1vw;
+	padding: 1vw;
+}
+#kokos h2{
+	padding: 0.5vw
+}
+h4{
+	padding: 1vw
+}
+#imgkokos{
+	width: 25vw;
+	float: left;
+	margin-left: 6vw;
+	border: 0.5vw black solid;
+	border-radius: 10vw;
+}
+#welt{
+	width: 70%;
+}
+#rot{
+	width: 1vw;
+	height: 1vw;
+	background-color: rgb(158, 114, 141);
+	border: 1px black solid;
+	border-radius: 0.5vw;
+	position: absolute;
+	top: 9.5vw;
+	left: 17.5vw;
+	transition: background 1.5s;
+}
+#rot:hover{
+	background: rgb(66, 39, 56);
+}
+#blau{
+	width: 1vw;
+	height: 1vw;
+	background-color: rgb(158, 114, 141);
+	border: 1px black solid;
+	border-radius: 0.5vw;
+	position: absolute;
+	top: 13vw;
+	left: 62vw;
+	transition: background 1.5s;
+}
+#blau:hover{
+	background: rgb(66, 39, 56);
+}
+#grun{
+	width: 1vw;
+	height: 1vw;
+	background-color: rgb(158, 114, 141);
+	border: 1px black solid;
+	border-radius: 0.5vw;
+	position: absolute;
+	top: 17vw;
+	left: 46vw;
+	transition: background 1.5s;
+}
+#grun:hover{
+	background: rgb(66, 39, 56);
+}
+#gelb{
+	width: 1vw;
+	height: 1vw;
+	background-color: rgb(158, 114, 141);
+	border: 1px black solid;
+	border-radius: 0.5vw;
+	position: absolute;
+	top: 22vw;
+	left: 35vw;
+	transition: background 1.5s;
+}
+#gelb:hover{
+	background: rgb(66, 39, 56);
+}
+#animation{
+	animation: bilder 27s infinite;
+	width: 30vw; 
+	height: 20vw;
+	margin: 0px auto;
+}
+@keyframes bilder{
+	0%		{background-image: url(pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
+	25%		{background-image: url(pexels-caio-174523.jpg); background-size: contain; background-repeat: no-repeat;}
+	50% 	{background-image: url(pexels-flickr-155249.jpg); background-size: contain; background-repeat: no-repeat;}
+	75%		{background-image: url(pexels-pixabay-161212.jpg); background-size: contain; background-repeat: no-repeat;}
+	100%	{background-image: url(pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
+}
