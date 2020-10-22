@@ -10,22 +10,23 @@ body{
 p{
 	font-size: 1.5vw;
 }
-#oben{
+.oben{
 	height: 30vw;
 	width: auto;
-	/* background: url("Medien/Wolken.jpg") no-repeat center center fixed; */
+	/*background: url("Wolken.jpeg") no-repeat center center fixed;*/
 	background-size: cover;
 	z-index: 0;
 }
-#oben img{
+.oben .nav img{
 	height: 5vw;
 }
-#zurueck img{
-	margin: 1vw
+.zurueck img{
+	margin: 1vw;
+	height: 5vw;
 }
-#player{
+.player{
 	display: block;
-	/*background: url(aegypten.jpg);*/
+	background: url(aegypten.jpg);
 	opacity: 0,5;
 	border: 1vw black solid;
 	width: 50%;
@@ -33,38 +34,32 @@ p{
 	padding: 1vw;
 	padding-top: 15vw;
 }
-#player audio{
+.player audio{
 	color: black;
 }
 #alaska{
 	background-color: black;
-	width: 50vw;
 }
-#video{
+video{
 	height: 30vw;
 	border: 2vw black solid;
 	border-radius: 1vw;
 }
-#nav{
+.nav{
 	height: 8vw;
 	width: auto;
 	padding-top: 5vw;
 	background-color: rgb(73, 73, 73);
 	border-radius: 0vw 0vw 2.5vw 2.5vw;
-	display: flex;
-	flex-wrap: nowrap;
 }
 
-#nav div{
+.nav a{
 	color: white;
-	padding: 0vw 5vw;
-	padding-left: 9vw;
-}
-#nav img{
 	text-align: center;
+	padding: 7%;
 }
 
-#inhalt{
+.inhalt{
 	background-color: rgb(48, 48, 48);
 	color: white;
 	width: 80%;
@@ -78,27 +73,27 @@ p{
 	border-radius: 2.5vw;
 	left: 8.5%;
 }
-#kokos{
+.kokos{
 	margin: 1vw;
 	padding: 1vw;
 }
-#kokos h2{
+.kokos h2{
 	padding: 0.5vw
 }
 h4{
 	padding: 1vw
 }
-#imgkokos{
+.imgkokos{
 	width: 25vw;
 	float: left;
 	margin-left: 6vw;
 	border: 0.5vw black solid;
 	border-radius: 10vw;
 }
-#welt{
+.welt{
 	width: 70%;
 }
-#rot{
+.rot{
 	width: 1vw;
 	height: 1vw;
 	background-color: rgb(158, 114, 141);
@@ -109,10 +104,10 @@ h4{
 	left: 17.5vw;
 	transition: background 1.5s;
 }
-#rot:hover{
+.rot:hover{
 	background: rgb(66, 39, 56);
 }
-#blau{
+.blau{
 	width: 1vw;
 	height: 1vw;
 	background-color: rgb(158, 114, 141);
@@ -123,10 +118,10 @@ h4{
 	left: 62vw;
 	transition: background 1.5s;
 }
-#blau:hover{
+.blau:hover{
 	background: rgb(66, 39, 56);
 }
-#grun{
+.grun{
 	width: 1vw;
 	height: 1vw;
 	background-color: rgb(158, 114, 141);
@@ -137,10 +132,10 @@ h4{
 	left: 46vw;
 	transition: background 1.5s;
 }
-#grun:hover{
+.grun:hover{
 	background: rgb(66, 39, 56);
 }
-#gelb{
+.gelb{
 	width: 1vw;
 	height: 1vw;
 	background-color: rgb(158, 114, 141);
@@ -151,10 +146,10 @@ h4{
 	left: 35vw;
 	transition: background 1.5s;
 }
-#gelb:hover{
+.gelb:hover{
 	background: rgb(66, 39, 56);
 }
-#animation{
+.animation{
 	animation: bilder 27s infinite;
 	width: 30vw; 
 	height: 20vw;
