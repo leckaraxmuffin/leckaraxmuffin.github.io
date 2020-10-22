@@ -24,33 +24,16 @@ p{
 	margin: 1vw;
 	height: 5vw;
 }
-.player{
-	display: block;
-	background: url(aegypten.jpg);
-	opacity: 0,5;
-	border: 1vw black solid;
-	width: 50%;
-	margin: 1vw auto;
-	padding: 1vw;
-	padding-top: 15vw;
-}
-.player audio{
-	color: black;
-}
-#alaska{
-	background-color: black;
-}
-video{
-	height: 30vw;
-	border: 2vw black solid;
-	border-radius: 1vw;
-}
 .nav{
 	height: 8vw;
 	width: auto;
 	padding-top: 5vw;
 	background-color: rgb(73, 73, 73);
 	border-radius: 0vw 0vw 2.5vw 2.5vw;
+}
+
+#audio{
+	border: 1vw black solid;
 }
 
 .nav a{
@@ -156,9 +139,9 @@ h4{
 	margin: 0px auto;
 }
 @keyframes bilder{
-	0%		{background-image: url(pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
-	25%		{background-image: url(pexels-caio-174523.jpg); background-size: contain; background-repeat: no-repeat;}
-	50% 	{background-image: url(pexels-flickr-155249.jpg); background-size: contain; background-repeat: no-repeat;}
-	75%		{background-image: url(pexels-pixabay-161212.jpg); background-size: contain; background-repeat: no-repeat;}
-	100%	{background-image: url(pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
+	0%		{background-image: url(Medien/pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
+	25%		{background-image: url(Medien/pexels-caio-174523.jpg); background-size: contain; background-repeat: no-repeat;}
+	50% 	{background-image: url(Medien/pexels-flickr-155249.jpg); background-size: contain; background-repeat: no-repeat;}
+	75%		{background-image: url(Medien/pexels-pixabay-161212.jpg); background-size: contain; background-repeat: no-repeat;}
+	100%	{background-image: url(Medien/pexels-matheus-bertelli-2868242.jpg); background-size: contain; background-repeat: no-repeat;}
 }
